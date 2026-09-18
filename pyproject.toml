@@ -1,19 +1,22 @@
 [project]
 name = "dap391m"
 version = "0.1.0"
-description = "Add your description here"
+description = "DAP391m playground."
 readme = "README.md"
 authors = [
     { name = "ForeverWeLearn", email = "theanh11052006@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "altair>=6.3.0",
+    "bokeh>=3.9.2",
+    "bokeh-sampledata>=2025.0",
+    "hvplot>=0.12.2",
     "ipykernel>=7.3.0",
-    "kagglehub[pandas-datasets]>=1.0.2",
     "pandas>=3.0.5",
     "polars>=1.44.2",
+    "pyarrow>=25.0.1",
     "scikit-learn>=1.9.1",
-    "seaborn>=0.13.2",
 ]
 
 [project.scripts]
