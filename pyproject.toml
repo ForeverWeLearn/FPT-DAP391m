@@ -13,6 +13,7 @@ dependencies = [
     "bokeh-sampledata>=2025.0",
     "hvplot>=0.12.2",
     "ipykernel>=7.3.0",
+    "lmstudio>=1.5.0",
     "pandas>=3.0.5",
     "polars>=1.44.2",
     "pyarrow>=25.0.1",
@@ -20,7 +21,7 @@ dependencies = [
 ]
 
 [project.scripts]
-dap391m = "dap391m:main"
+lab3 = "dap391m.lab3.app:main"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
