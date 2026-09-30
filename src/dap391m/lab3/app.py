@@ -1,8 +1,13 @@
 import lmstudio as lms
 
+MODEL = {
+    "lite": "google/gemma-4-e2b",
+    "medium": "nvidia/nemotron-3-nano-4b",
+}
+
 
 def main():
-    model = lms.llm("google/gemma-4-e2b")
+    model = lms.llm(MODEL["medium"])
 
     chat = lms.Chat("You are a helpful and concise local AI assistant.")
 
